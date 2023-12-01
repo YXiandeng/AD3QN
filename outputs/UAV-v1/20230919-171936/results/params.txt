@@ -1,0 +1,20 @@
+------------------ start ------------------
+sign : the number of users
+algo_name : DQN
+env_name : UAV-v1
+train_eps : 1000
+test_eps : 50
+gamma : 0.9
+epsilon_start : 0.9
+epsilon_end : 1e-05
+frame_idx : 10000
+lr : 0.0001
+memory_capacity : 2000000
+batch_size : 128
+target_update : 2
+hidden_dim : 1024
+result_path : E:\UAV simulation\communication_DF_db/outputs/UAV-v1/20230919-171936/results/
+model_path : E:\UAV simulation\communication_DF_db/outputs/UAV-v1/20230919-171936/models/
+save_fig : True
+device : cuda
+------------------- end -------------------
